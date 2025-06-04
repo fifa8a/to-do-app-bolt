@@ -11,7 +11,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
     <header className="mb-8 flex items-center justify-between animate-fade-in">
       <div className="flex items-center">
         <CheckSquare size={28} className="mr-2 text-primary-600 dark:text-primary-500" />
-        <h1 className="text-2xl font-semibold text-gray-800 dark:text-white">TaskFlow</h1>
+        <h1 className="text-2xl font-semibold text-gray-800 dark:text-white">Leo's To-do</h1>
       </div>
       
       <button
